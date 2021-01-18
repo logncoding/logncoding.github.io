@@ -5,6 +5,191 @@
 * License: https://bootstrapmade.com/license/
 */
 
+
+/*--------------------------------------------------------------
+# Header3
+--------------------------------------------------------------*/
+#header3 {
+  position: relative;
+  width: 100%;
+  padding: 100px 0;
+  /* countdown */
+}
+
+#header3 h1 {
+  margin: 0 0 10px 0;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #fff;
+}
+
+#header3 h2 {
+  color: #eee;
+  margin-bottom: 40px;
+  font-size: 22px;
+}
+
+#header3 .countdown {
+  margin-bottom: 80px;
+}
+
+#header3 .countdown div {
+  text-align: center;
+  margin: 10px;
+  width: 100px;
+  padding: 15px 0;
+  background: rgba(255, 255, 255, 0.12);
+  border-top: 5px solid #fcbc2c;
+}
+
+#header3 .countdown div h3 {
+  font-weight: 700;
+  font-size: 44px;
+  margin-bottom: 15px;
+}
+
+#header3 .countdown div h4 {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+@media (max-width: 575px) {
+  #header3 .countdown div {
+    width: 70px;
+    padding: 10px 0;
+    margin: 10px 8px;
+  }
+  #header3 .countdown div h3 {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  #header3 .countdown div h4 {
+    font-size: 14px;
+    font-weight: 500;
+  }
+}
+
+#header3 .subscribe {
+  font-size: 15px;
+  text-align: center;
+}
+
+#header3 .subscribe h4 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+  position: relative;
+  padding-bottom: 12px;
+}
+
+#header3 .subscribe .subscribe-form {
+  min-width: 300px;
+  margin-top: 10px;
+  background: #fff;
+  padding: 6px 10px;
+  position: relative;
+  text-align: left;
+}
+
+#header3 .subscribe .subscribe-form input[type="email"] {
+  border: 0;
+  padding: 4px 8px;
+  width: calc(100% - 100px);
+}
+
+#header3 .subscribe .subscribe-form input[type="submit"] {
+  position: absolute;
+  top: 0;
+  right: -2px;
+  bottom: 0;
+  border: 0;
+  background: none;
+  font-size: 16px;
+  padding: 0 20px;
+  background: #fcbc2c;
+  color: #fff;
+  transition: 0.3s;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+#header3 .subscribe .subscribe-form input[type="submit"]:hover {
+  background: #fcbc2c;
+}
+
+#header3 .subscribe .error-message {
+  display: none;
+  color: #ed3c0d;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+}
+
+#header3 .subscribe .sent-message {
+  display: none;
+  color: #18d26e;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+}
+
+#header3 .subscribe .loading {
+  display: none;
+  text-align: center;
+  padding: 15px;
+}
+
+#header3 .subscribe .loading:before {
+  content: "";
+  display: inline-block;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  margin: 0 10px -6px 0;
+  border: 3px solid #18d26e;
+  border-top-color: #eee;
+  -webkit-animation: animate-loading-notify 1s linear infinite;
+  animation: animate-loading-notify 1s linear infinite;
+}
+
+@-webkit-keyframes animate-loading-notify {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes animate-loading-notify {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+#header3 .social-links {
+  margin-top: 10px;
+}
+
+#header3 .social-links a {
+  font-size: 24px;
+  display: inline-block;
+  color: rgba(255, 255, 255, 0.8);
+  line-height: 1;
+  padding-top: 14px;
+  margin: 0 10px;
+  text-align: center;
+  transition: 0.3s;
+}
+
+#header3 .social-links a:hover {
+  color: #fff;
+}
+
+
 /*--------------------------------------------------------------
 # Top Bar
 --------------------------------------------------------------*/
@@ -128,6 +313,36 @@
   opacity: 1;   
   transition: bottom ease-in-out 0.4s;
 }
+
+
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+#body2 {
+  font-family: "Open Sans", sans-serif;
+  color: #fff;
+  background: url("../img/bg.jpg") top center no-repeat;
+  background-size: cover;
+  position: relative;
+  padding-top: 150px;
+}
+
+#body2::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(34, 34, 34, 0.8);
+}
+
+@media (min-width: 1024px) {
+  #body2 {
+    background-attachment: fixed;
+  }
+}
+
 
 /*--------------------------------------------------------------
 # General
@@ -754,6 +969,16 @@ section {
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
   color: #0f2f57;
+}
+
+.section-title2 p {
+  margin: 0;
+  margin: 0;
+  font-size: 25px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: #106c70;
+  padding-bottom: 20px;
 }
 
 /*--------------------------------------------------------------
@@ -1461,6 +1686,71 @@ section {
   bottom: 20px;
 }
 
+/*--------------------------------------------------------------
+# Specials
+--------------------------------------------------------------*/
+#specials{ 
+  padding-top: 150px;
+}
+
+.specials {
+  overflow: hidden;
+}
+
+.specials .nav-tabs {
+  border: 0;
+}
+
+.specials .nav-link {
+  border: 0;
+  padding: 12px 15px 12px 0;
+  transition: 0.3s;
+  color: #433f39;
+  border-radius: 0;
+  border-right: 2px solid #e8e7e4;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.specials .nav-link:hover {
+  color: #ffb03b;
+}
+
+.specials .nav-link.active {
+  color: #ffb03b;
+  border-color: #ffb03b;
+}
+
+.specials .tab-pane.active {
+  -webkit-animation: fadeIn 0.5s ease-out;
+  animation: fadeIn 0.5s ease-out;
+}
+
+.specials .details h3 {
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #433f39;
+}
+
+.specials .details p {
+  color: #777777;
+}
+
+.specials .details p:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 992px) {
+  .specials .nav-link {
+    border: 0;
+    padding: 15px;
+  }
+  .specials .nav-link.active {
+    color: #fff;
+    background: #ffb03b;
+  }
+}
 /*--------------------------------------------------------------
 # Team
 
