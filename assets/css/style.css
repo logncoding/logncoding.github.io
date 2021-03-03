@@ -747,6 +747,33 @@ h6 {
   color: #fff;
 }
 
+.button1{ 
+  background-color: #4CAF50;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  position: relative; 
+  margin: 30px;
+  width: 50%;
+  font-size: 18px;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.wrapperButton{ 
+  text-align: center;
+}
+
+
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
