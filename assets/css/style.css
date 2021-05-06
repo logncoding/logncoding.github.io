@@ -12,6 +12,20 @@
   width: 50%;
 }
 
+.responsive1 {
+  width: 100%;
+  height: auto;
+}
+
+@media (min-width: 960px) {
+  .responsive1 {
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
 /*--------------------------------------------------------------
 # Header3
 --------------------------------------------------------------*/
@@ -195,7 +209,6 @@
   color: #fff;
 }
 
-
 /*--------------------------------------------------------------
 # Top Bar
 --------------------------------------------------------------*/
@@ -204,12 +217,12 @@
   padding: 10px 0;
   border-bottom: 1px solid #eee;
   font-size: 14px;
-  color: white; 
+  color: white;
 }
 
 #topbar .contact-info a {
   line-height: 1;
-  color: white ;
+  color: white;
   transition: 0.3s;
 }
 
@@ -232,7 +245,6 @@
   margin-left: 10px;
 }
 
-
 #topbar .social-links a {
   color: #5c768d;
   padding: 4px 12px;
@@ -251,7 +263,7 @@
 .team {
   background: #fff;
   padding-bottom: 30px;
-  padding-top:150px;
+  padding-top: 150px;
 }
 
 .team .member {
@@ -317,10 +329,9 @@
 
 .team .member:hover .social {
   bottom: 0;
-  opacity: 1;   
+  opacity: 1;
   transition: bottom ease-in-out 0.4s;
 }
-
 
 /*--------------------------------------------------------------
 # General
@@ -351,11 +362,10 @@
   }
 }
 
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
-html{ 
+html {
   height: 100%;
 }
 
@@ -747,12 +757,12 @@ h6 {
   color: #fff;
 }
 
-.button1{ 
-  background-color: #4CAF50;
+.button1 {
+  background-color: #4caf50;
   color: white;
   justify-content: center;
   align-items: center;
-  position: relative; 
+  position: relative;
   margin: 30px;
   width: 50%;
   font-size: 18px;
@@ -761,7 +771,9 @@ h6 {
   box-shadow: 0 9px #999;
 }
 
-.button:hover {background-color: #3e8e41}
+.button:hover {
+  background-color: #3e8e41;
+}
 
 .button:active {
   background-color: #3e8e41;
@@ -769,52 +781,49 @@ h6 {
   transform: translateY(4px);
 }
 
-.wrapperButton{ 
+.wrapperButton {
   text-align: center;
 }
 
-.bannerCenter{ 
-  display:block; 
-  margin-left: auto; 
+.bannerCenter {
+  display: block;
+  margin-left: auto;
   margin-right: auto;
   margin-top: 130px;
-  width: 100%
+  width: 100%;
 }
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
-#staticHome { 
-  display: none; 
-  width: cover; 
+#staticHome {
+  display: none;
+  width: cover;
   font-size: 3vw;
   margin-top: 50px;
-  margin-bottom: -60px; 
+  margin-bottom: -60px;
 }
 
-@media (max-width: 960px) { 
-  #staticHome { 
-    display: block;  
+@media (max-width: 960px) {
+  #staticHome {
+    display: block;
   }
-  #hero { 
-    display: none; 
-  }
-}
-
-@media (min-width: 960px) { 
-  .bannerCenter { 
-    width: 50%; 
-  }
-}
-
-
-  
-  
   #hero {
-    width: 100%;
-    height: 100%;
-    background-color: rgba(4, 12, 21, 0.8);
-    overflow: hidden;
-    position: relative;
+    display: none;
+  }
+}
+
+@media (min-width: 960px) {
+  .bannerCenter {
+    width: 50%;
+  }
+}
+
+#hero {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(4, 12, 21, 0.8);
+  overflow: hidden;
+  position: relative;
 }
 
 #hero .carousel,
@@ -847,7 +856,6 @@ h6 {
   left: 50px;
   right: 50px;
 }
-
 
 #hero h2 {
   color: #fff;
@@ -974,8 +982,6 @@ h6 {
     text-align: center;
     top: 74px;
   }
-
-  
 }
 
 @media (max-width: 768px) {
@@ -1618,8 +1624,7 @@ section {
 --------------------------------------------------------------*/
 .cta {
   padding: 80px 0;
-  background: #106c70
-;
+  background: #106c70;
 }
 
 .cta h3 {
@@ -1761,7 +1766,7 @@ section {
 /*--------------------------------------------------------------
 # Specials
 --------------------------------------------------------------*/
-#specials{ 
+#specials {
   padding-top: 150px;
 }
 
@@ -2067,7 +2072,7 @@ section {
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
-#contact{ 
+#contact {
   padding-top: 150px;
 }
 
@@ -2433,8 +2438,8 @@ section {
   line-height: 1;
 }
 
-#footerimage { 
-  height: 50%; 
+#footerimage {
+  height: 50%;
   width: 50%;
 }
 
