@@ -26,6 +26,18 @@
   }
 }
 
+@media (max-width: 995px) {
+  .home-people {
+    display: none;
+  }
+}
+
+@media (max-width: 800px) {
+  #cta {
+    padding: 30px 0;
+  }
+}
+
 /*--------------------------------------------------------------
 # Courses Page Image Responsive
 --------------------------------------------------------------*/
