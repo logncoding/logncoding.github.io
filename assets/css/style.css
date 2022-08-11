@@ -26,6 +26,45 @@
   }
 }
 
+@media (max-width: 995px) {
+  .home-people {
+    display: none;
+  }
+}
+
+@media (max-width: 800px) {
+  #cta {
+    padding: 15px 0px 5px;
+    font-size: 12px;
+  }
+  #cta br {
+    display: none;
+  }
+  #cta h3 {
+    font-size: 20px;
+  }
+}
+
+/*--------------------------------------------------------------
+# Courses Page Image Responsive
+--------------------------------------------------------------*/
+
+#summer_course {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+@media (max-width: 992px) {
+  #summer_course {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+}
+
 /*--------------------------------------------------------------
 # Header3
 --------------------------------------------------------------*/
@@ -651,7 +690,7 @@ h6 {
 /* Mobile Navigation */
 .mobile-nav-toggle {
   position: fixed;
-  top: 23px;
+  top: 63px;
   right: 15px;
   z-index: 9998;
   border: 0;
