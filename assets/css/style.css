@@ -277,7 +277,7 @@
 # Top Bar
 --------------------------------------------------------------*/
 #topbar {
-  background: #106c70;
+  background: rgb(98, 94, 94);
   padding: 10px 0;
   border-bottom: 1px solid #eee;
   font-size: 14px;
